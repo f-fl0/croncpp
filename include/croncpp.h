@@ -10,7 +10,7 @@
 #include <algorithm>
 #include <chrono>
 
-#if __cplusplus > 201402L
+#if __cplusplus >= 201703L
 #include <string_view>
 #define CRONCPP_IS_CPP17
 #endif
